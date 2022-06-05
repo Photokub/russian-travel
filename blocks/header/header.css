@@ -1,0 +1,16 @@
+.header{
+    width: 1184px;
+    height: 52px;
+    margin:auto;
+    background-color: #2A2C2F;
+    display:flex;
+    flex-direction:row;
+    justify-content: end;
+    position:relative;
+    margin-top:28px;
+}
+
+.header p:first-of-type{
+    text-decoration:underline;
+    margin-right:18px;
+}
