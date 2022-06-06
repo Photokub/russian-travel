@@ -1,5 +1,5 @@
 .lead{
-    width: 984px;
+    max-width: 984px;
     /* height: 1005px; */
     background-color: #2A2C2F;
     margin:auto;
@@ -7,4 +7,12 @@
     flex-direction:column;
     align-items: center;
     color:#fff;
+    /* padding-left: 148px; */
+}
+
+@media screen and (max-width:1024px){
+    .lead{
+        max-width:928px;
+        /* padding-left:48px;         */
+    } 
 }

@@ -1,8 +1,18 @@
 .intro {
     background-color: #2A2C2F;
-    width: 690px;
+    max-width: 984px;
     height: 429px;
-    margin-left:148px;
-    color:#fff;
-    margin-top:92px;
+    /* margin-left:148px; */
+    color:#fff;    
+    display:flex;
+    flex-direction:column;
+    /* margin:auto; */
+    /* padding-left:148px; */
+}
+
+@media screen and (max-width:1024px){
+    .intro{
+        max-width:928px;
+        /* padding-left:48px;  */
+    } 
 }
