@@ -8,4 +8,29 @@
     font-size: 30px;
     line-height: 36px;
     text-align: center;
+    padding-left:calc(320px - 148px);
+}
+
+@media screen and (max-width:1024px){
+    .lead__subtitle{
+        min-width:640px;
+        padding-left:calc(192px - 48px);
+    } 
+}
+
+@media screen and (max-width:768px){
+    .lead__subtitle{
+        min-width:640px;
+        padding-left:64px;
+    } 
+}
+
+@media screen and (max-width:320px){
+    .lead__subtitle{
+        min-width:288px;
+        padding-left:16px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top:16px;
+    } 
 }

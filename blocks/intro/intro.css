@@ -1,18 +1,31 @@
 .intro {
     background-color: #2A2C2F;
-    max-width: 984px;
+    width: 690px;
     height: 429px;
-    /* margin-left:148px; */
     color:#fff;    
     display:flex;
     flex-direction:column;
-    /* margin:auto; */
-    /* padding-left:148px; */
+    box-sizing:border-box;
+    padding-left:148px;
 }
 
 @media screen and (max-width:1024px){
     .intro{
-        max-width:928px;
-        /* padding-left:48px;  */
+        min-width:690px;
+        padding-left:48px; 
+    } 
+}
+
+@media screen and (max-width:768px){
+    .intro{
+        min-width:720px;
+        padding-left:24px; 
+    } 
+}
+
+@media screen and (max-width:320px){
+    .intro{
+        min-width:288px;
+        padding-left:16px; 
     } 
 }
