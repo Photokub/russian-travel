@@ -8,20 +8,25 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin:0;
+    padding-left: 148px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1140px){
     .lead__caption{
-        /* max-width:158px; */
+        padding-left:48px;
+    }
+}
+
+
+@media screen and (max-width:984px){
+    .lead__caption{
         padding-left:24px;
-    } 
+    }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:568px){
     .lead__caption{
-        min-width:160px;
-        /* height: 14px ; */
+        max-width:160px;
         padding-left:16px;
-    
-    } 
+    }
 }

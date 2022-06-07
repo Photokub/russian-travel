@@ -21,13 +21,11 @@
 @media screen and (max-width:768px){
     .intro__list{
         width:720px;
-        /* padding-left:24px;  */
-    } 
+    }
 }
 
 @media screen and (max-width:320px){
     .intro__list{
         width:288px;
-        /* padding-left:24px;  */
-    } 
+    }
 }

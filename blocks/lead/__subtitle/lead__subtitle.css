@@ -1,36 +1,37 @@
 .lead__subtitle{
     margin-top:32px;
     margin-bottom:0;
-    width:640px;
+    max-width:640px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    padding-left:calc(320px - 148px);
+    padding-left:320px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1140px){
     .lead__subtitle{
         min-width:640px;
-        padding-left:calc(192px - 48px);
-    } 
+        padding-left:192px;
+    }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:984px){
     .lead__subtitle{
         min-width:640px;
         padding-left:64px;
-    } 
+    }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:568px){
     .lead__subtitle{
         min-width:288px;
+        max-width:288px;
         padding-left:16px;
         font-size: 16px;
         line-height: 20px;
         margin-top:16px;
-    } 
+    }
 }
