@@ -1,0 +1,16 @@
+.place{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(460px, auto));
+    grid-row-gap:48px;
+    grid-column-gap:40px;
+}
+
+@media screen and (max-width:1140px){
+    .place{
+        grid-template-columns: repeat(auto-fit, minmax(auto, 440px));
+        grid-row-gap:48px;
+        grid-column-gap:32px; 
+        min-width:928px;
+        padding-left:48px;
+    }
+}

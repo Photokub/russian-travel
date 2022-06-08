@@ -1,0 +1,15 @@
+.place__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin:0;
+    width:460px;
+}
+
+@media screen and (max-width:1140px){
+    .place__title{
+        width:440px;
+    }
+}
