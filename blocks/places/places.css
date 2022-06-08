@@ -3,15 +3,20 @@
     grid-row-gap:80px;
     max-width: 984px;
     margin:0 auto;
-    /* max-height: 5177px;
-    height: 3392px;
-    display:flex;
-    flex-direction: column;
-    align-items: space-between; */
 }
 
-/* @media screen and (max-width:1140px){
+@media screen and (max-width:984px){
     .places{
-        min-width:928px;      
+        grid-row-gap:73px;
+    }
+
+    .places .place:nth-child(1) h4{
+        width:325px;
+    }
+}
+
+/* @media screen and (max-width:568px){
+    .places{
+        padding-left: 16px;
     }
 } */
