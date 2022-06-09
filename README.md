@@ -12,8 +12,7 @@
 
 **Git**
 
-* Ссылка на репозиторий SSH:git@github.com:Photokub/russian-travel.git
-* [Ссылка на репозиторий HTTP](https://github.com/Photokub/russian-travel.git)
+* [Ссылка на сайт](https://photokub.github.io/russian-travel/)
 
 
 
