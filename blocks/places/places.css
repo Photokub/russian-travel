@@ -10,13 +10,13 @@
         grid-row-gap:73px;
     }
 
-    .places .place:nth-child(1) h4{
+    .places .place:nth-child(1) .place__title{
         width:325px;
     }
 }
 
-/* @media screen and (max-width:568px){
+@media screen and (max-width:568px){
     .places{
-        padding-left: 16px;
+        grid-row-gap:50px;
     }
-} */
+}
