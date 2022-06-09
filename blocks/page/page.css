@@ -10,3 +10,9 @@
     padding: 28px 0 24px;
     -webkit-font-smoothing:antialiased;
 }
+
+@media screen and (max-width:568px){
+    .page{
+        padding: 16px 0 24px;
+    }
+}

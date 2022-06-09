@@ -1,14 +1,11 @@
 .header{
-    max-width: calc(1184px + 48px);
     width:1184px;
     height: 52px;
     margin:auto;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    align-items: center;
     position:relative;
-    /* padding-left:48px; */
     box-sizing:border-box;
     align-items:start;
 }
@@ -21,14 +18,12 @@
     .header{
         width: 928px;
         max-width:calc(928px + 48px);
-        /* padding-left:48px; */
     }
 }
 
 @media screen and (max-width:984px){
     .header{
         width:720px;
-        /* padding-left:24px; */
     }
 }
 
@@ -36,6 +31,5 @@
     .header{
         width:288px;
         height: 42px;
-        /* padding-left:16px; */
     }
 }
