@@ -9,8 +9,7 @@
 * 984px
 * 568px
 
-
-**Git**
+**Публикация**
 
 * [Ссылка на сайт](https://photokub.github.io/russian-travel/)
 
