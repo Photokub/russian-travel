@@ -1,10 +1,6 @@
 
 /* Вендорные */
 @import url("../vendor/normalize.css");
-@import url("../vendor/fonts/fonts.css");
-
-/* Временная граница */
-@import url("../blocks/border.css");
 
 /* page */
 @import url("../blocks/page/page.css");
@@ -31,7 +27,6 @@
 
 /* intro */
 @import url("../blocks/intro/intro.css");
-@import url("../blocks/intro/__content/intro__content.css");
 @import url("../blocks/intro/__list/intro__list.css");
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__text/intro__text.css");
