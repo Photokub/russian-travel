@@ -1,4 +1,4 @@
-.website__link{
+.place__link{
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -8,9 +8,9 @@
     color:#fff;
     margin:0;
     margin-top:12px;
-    transition: .5s;
+    transition: .3s;
 }
 
-.website__link:hover{
+.place__link:hover{
     opacity: .8;
 }
