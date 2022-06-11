@@ -1,6 +1,6 @@
 .intro {
     background-color: #2A2C2F;
-    width: 690px;
+    max-width:calc(690px + 148px);
     max-height: 754px;
     color:#fff;
     display:flex;
@@ -20,13 +20,14 @@
     .intro{
         min-width:720px;
         padding-left:24px;
+        padding-right:24px;
     }
 }
 
 @media screen and (max-width:586px){
     .intro{
-        max-width:288px;
         min-width:288px;
         padding-left:16px;
+        padding-right:16px;
     }
 }
