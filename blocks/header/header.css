@@ -6,7 +6,7 @@
     flex-direction:row;
     justify-content: space-between;
     position:relative;
-    align-items:center;
+    align-items:end;
 }
 
 .header li:last-of-type{

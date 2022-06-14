@@ -20,8 +20,8 @@
     <main class="content page__content">
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
-            <figcaption class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</figcaption>
             <figure class="lead__figure">
+                <figcaption class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</figcaption>
                 <img class="lead__image" src="images/lead__image.png" alt="главное изображение">
             </figure>
             <p class="lead__caption">ваша полка — верхняя</p>
@@ -43,7 +43,7 @@
                 <li>Аэропортов<span> 241</span></li>
             </ul>
         </section> <!-- закрылся intro -->
-        <section class="photo-grid" area-label="photos">
+        <section class="photo-grid" aria-label="photos">
             <img class="photo-grid__item" src="images/p-g__item-11.png" alt="Вид из окна поезда">
             <img class="photo-grid__item" src="images/p-g__item-10.png" alt="Горы из-за облаков">
             <img class="photo-grid__item" src="images/p-g__item-9.png" alt="Собака на сене">
@@ -57,7 +57,7 @@
             <img class="photo-grid__item" src="images/p-g__item-1.png" alt="Скалы">
             <img class="photo-grid__item" src="images/p-g__item.png" alt="Горы в тумане">
         </section> <!-- закрылся photo-grid -->
-        <section class="places">
+        <section class="places" aria-label="places">
             <article class="place">
                 <h4 class="place__title place__title_size-m">Куршская коса</h4>
                 <div class="place__website">
@@ -75,7 +75,7 @@
                         наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в
                         спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
-            </article> <!-- закрылся place -->
+            </article> <!-- закрылся article -->
             <article class="place">
                 <h4 class="place__title">Кольский</h4>
                 <div class="place__website">
@@ -134,9 +134,9 @@
                         скийорингу. Это такой вид спорта, когда лыжник привязывает себя
                         к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
                         фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
-            </article>
+                </div>
             </article> <!-- закрылся place -->
-            <div class="place">
+            <article class="place">
                 <h4 class="place__title">Карелия</h4>
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
@@ -154,7 +154,7 @@
                         В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
                         в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                 </div>
-                </article> <!-- закрылся place -->
+            </article> <!-- закрылся place -->
         </section> <!-- закрылся places -->
         <section class="cover content__section">
             <a href="#" class="cover__item">
