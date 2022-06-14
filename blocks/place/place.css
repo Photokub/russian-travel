@@ -5,25 +5,25 @@
     grid-column-gap:40px;
 }
 
-.place div:last-child p:last-of-type{
-    margin:0;
-}
-
 @media screen and (max-width:1140px){
     .place{
         grid-template-columns: 440px 456px;
-        grid-row-gap:48px;
         grid-column-gap:32px;
-        width: 928px;
     }
 }
 
 @media screen and (max-width:984px){
     .place{
         grid-template-columns: 340px 352px;
-        grid-row-gap:48px;
         grid-column-gap:28px;
-        width:720px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .place{
+        grid-template-columns: minmax(288px, 1fr);
+        grid-row-gap:32px;
+        max-width: 320px;
     }
 }
 

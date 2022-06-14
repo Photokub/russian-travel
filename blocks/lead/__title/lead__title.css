@@ -9,27 +9,28 @@
     margin:0 auto;
 }
 
-@media screen and (max-width:1140px){
+/* @media screen and (max-width:1140px){
     .lead__title{
         max-width:720px;
     }
-}
+} */
 
 @media screen and (max-width:984px){
     .lead__title{
-        width:100%;
+        /* width:100%; */
     }
 }
 
 @media screen and (max-width:768px){
     .lead__title{
-        min-width:596px;
+        max-width:616px;
+        font-size: 80px;
+        line-height:90px;
     }
 }
 
 @media screen and (max-width:568px){
     .lead__title{
-        min-width:288px;
         max-width:288px;
         font-size: 40px;
         line-height: 44px;

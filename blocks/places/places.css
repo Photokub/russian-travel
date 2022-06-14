@@ -9,10 +9,6 @@
     .places{
         grid-row-gap:73px;
     }
-
-    .places .place:nth-child(1) .place__title{
-        width:325px;
-    }
 }
 
 @media screen and (max-width:568px){

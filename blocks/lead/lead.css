@@ -12,21 +12,21 @@
 
 @media screen and (max-width:1140px){
     .lead{
-        max-width:928px;
+        /* max-width:928px; */
         padding-left:0;
     }
 }
 
 @media screen and (max-width:984px){
     .lead{
-        min-width:768px;
+        /* min-width:768px; */
         padding-left:0;
     }
 }
 
 @media screen and (max-width:568px){
     .lead{
-        min-width:320px;
+        /* min-width:320px; */
         padding-left:0;
     }
 }
