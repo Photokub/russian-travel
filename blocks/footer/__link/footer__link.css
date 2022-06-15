@@ -9,6 +9,12 @@
     opacity: .8;
 }
 
+@media screen and (max-width: 594px){
+    .footer__link{
+        margin-right:12px;
+    }
+}
+
 @media screen and (max-width: 586px){
     .footer__link{
         margin-bottom:32px;
