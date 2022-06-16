@@ -23,5 +23,6 @@
     .header{
         width:calc(100% - (16*2px));
         min-height: 42px;
+        align-items:center;
     }
 }
